@@ -1,0 +1,68 @@
+body {
+    position:fixed;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+}
+.greeting {
+	font-size: 6em;
+	color: #F76A8C;
+	margin-top: 15%;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #1D7C7A;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.btn-floating{
+}
+.fab{
+	font-size: 1.75em;
+	color:white;
+}
+.fas{
+	font-size: 1.75em;
+	color:white;
+}
+ 
+.btn-fb{
+	background-color: #F76A8C;
+}
+.btn-tw{
+	background-color: #F76A8C;
+}
+.btn-git{
+	background-color: #F76A8C;
+}
+.btn-email{
+	background-color: #F76A8C;
+}
+    a{
+        margin-left: 5px;
+        margin-right: 5px;
+    }
