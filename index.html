@@ -14,12 +14,21 @@
     <link href="bootstrap/mdb.min.css" rel="stylesheet">
   </head>
   <body style=" background: #b8ecf9;">
+    <div class="turnstile">
     <div class="topnav">
       <a href="/" class="active" >Home</a>	
       <a href="/contact.html" >Contact Me</a>
     </div>
+    <div>
+      <center>
+        <button type="button" id="myButton" onclick="turnstile()" style="font-Size:20px;" >Enter Turnstile</button> 
+      </center>
+			  <audio id="audio">
+				  <source src="Invert.mp3">
+			  </audio>	 
+	 <div>
     <center>
-      <div class="greeting" style="margin-bottom: 6%;">
+      <div class="greeting" style="margin-bottom: 6%; margin-top: 100px;">
         Hi, I'm Shubham!
       </div>
       <div class="d-flex flex-row justify-content-around" style="width: 250px;">
@@ -41,6 +50,9 @@
         </center>
       </div>
     </center>
+    </div>
+  </div>
+</div>
     <!-- JQuery -->
     <script type="text/javascript" src="js/jquery.js"></script>
     <script type="text/javascript" src="js/jquery.min.js"></script>
